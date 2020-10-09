@@ -1,25 +1,4 @@
 <?php
-
-	/*for($a=1;$a<10;$a++){
-		for($b=$a;$b<10;$b++){
-			echo "=";
-		}
-		for($c=2*$a ; $c>0;$c--){
-			echo "X";
-		}
-		echo "<br>";
-	}
-	$n = 10;
-	for($a=10;$a>0;$a--){
-		for($b=$n-$a;$b>0;$b--){
-			echo "=";
-		}
-		for($c=2*$a-2 ; $c>0;$c--){
-			echo "X";
-		}
-		echo "<br>";
-	}*/
-
 	for( $a=10;$a>0;$a--){
 		for($i=1; $i<=$a; $i++){
 			echo "_";
